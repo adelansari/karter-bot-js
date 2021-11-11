@@ -39,8 +39,8 @@ module.exports = class GuildMemberAddEvent extends BaseEvent {
     try {
       const response = await msg.channel.awaitMessages({
         filter,
-        max: 1,
-        time: 20000,
+        max: 1,         // Number of messages to successfully pass the filter
+        time: 300000,   // 5 min captcha time
         errors: ["time"],
       });
 
