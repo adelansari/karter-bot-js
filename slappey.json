@@ -1,0 +1,6 @@
+{
+  "name": "karter-bot-js",
+  "language": "javascript",
+  "manager": "yarn",
+  "prefix": "."
+}
